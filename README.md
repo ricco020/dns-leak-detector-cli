@@ -111,7 +111,7 @@ This makes the tool usable inside health-checks and CI:
 4. **IPv6 probe** — calls `api64.ipify.org`. If a routable public IPv6
    exits *outside* your tunnel (and your VPN doesn't tunnel IPv6),
    that's a leak vector.
-5. **SMHNR heuristic** — Windows' [Smart Multi-Homed Name Resolution](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dns-resolution-issue-smart-multihomed)
+5. **SMHNR heuristic** — Windows' [Smart Multi-Homed Name Resolution](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-admx-dnsclient)
    forwards a DNS query to *every* active adapter in parallel and
    accepts whichever response arrives first. If we see ≥3 resolvers
    across ≥2 distinct countries on a single probe burst, SMHNR is the
@@ -157,7 +157,7 @@ machine and these public endpoints.
 - [bash.ws](https://bash.ws/) — public DNS leak detection endpoint
 - [ip-api.com](https://ip-api.com/) — free ASN/geo lookup
 - [RFC 1034 — Domain Names](https://datatracker.ietf.org/doc/html/rfc1034)
-- [Windows SMHNR documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dns-resolution-issue-smart-multihomed)
+- [Windows SMHNR documentation](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-admx-dnsclient)
 
 ---
 
