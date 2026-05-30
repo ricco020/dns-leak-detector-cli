@@ -56,7 +56,7 @@ that mirrors the same logic in the browser.
 No PyPI dependency — just clone and run:
 
 ```bash
-git clone https://github.com/<your-org>/dns-leak-detector-cli
+git clone https://github.com/<ricco020>/dns-leak-detector-cli
 cd dns-leak-detector-cli
 python3 dnsleak.py
 ```
