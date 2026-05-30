@@ -48,7 +48,7 @@ the companion guide:
 
 **[Test a DNS leak in 2 minutes — complete methodology](https://www.anonymflow.com/en/blog/dns-leak-test)**
 
-We also publish a [web-based DNS + WebRTC + IPv6 checker](https://www.anonymflow.com/en/tools/test-fuite-dns)
+We also publish a [web-based DNS + WebRTC + IPv6 checker](https://www.anonymflow.com/en/tools/dns-leak-test)
 that mirrors the same logic in the browser.
 
 ## Install
@@ -145,7 +145,7 @@ machine and these public endpoints.
 
 - [Full DNS leak methodology + per-OS fixes](https://www.anonymflow.com/en/blog/dns-leak-test) — the reference write-up this CLI mirrors
 - [VPN security audit — 9 tests](https://www.anonymflow.com/en/blog/complete-vpn-security-audit) — broader battery of checks (WebRTC, kill-switch, IPv6, etc.)
-- [WebRTC leak detector tool](https://www.anonymflow.com/en/tools/test-fuite-dns) — browser-based companion
+- [WebRTC leak detector tool](https://www.anonymflow.com/en/tools/dns-leak-test) — browser-based companion
 
 ## License
 
